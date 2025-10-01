@@ -45,7 +45,7 @@ export default defineConfig((/* ctx */) => {
         vueShim: true
         // extendTsConfig (tsConfig) {}
       },
-
+      publicPath: '/versionControl3/',
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       // vueRouterBase,
       // vueDevtools,
@@ -64,7 +64,7 @@ export default defineConfig((/* ctx */) => {
 
       // extendViteConf (viteConf) {},
       // viteVuePluginOptions: {},
-      
+
       vitePlugins: [
         ['vite-plugin-checker', {
           vueTsc: true,
