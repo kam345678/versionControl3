@@ -6,7 +6,7 @@
       @reset="onReset"
       class="q-gutter-md"
     >
-      <q-input 
+      <q-input
         filled
         v-model="name"
         label="Your name *"
@@ -81,5 +81,5 @@ export default {
       }
     }
   }
-}
+} //kam
 </script>
